@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>KrishiSahayak</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Krishi Sahayak</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              farmer corner
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Edit Aadhaar Details</a>
+              <a class="dropdown-item" href="#">New farmer Registration</a>
+              <a class="dropdown-item" href="#">Beneficiary Status</a>
+            </div>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Customers'corner</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">NGO/Consultan Carner</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Agro-News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/shops_page.html">shops</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Donate</a>
+              </li>
+          </ul>
+          <div class="mx-2 ml-auto">
+            <button class ="btn btn-secondary" data-toggle="modal" data-target="#LoginModal">Login</button>
+            <button class ="btn btn-secondary" data-toggle="modal" data-target="#SignUpModal">SignUp</button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Login Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="LoginModalLabel">Login to Coder</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- SingUp Modal -->
+<div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="SignUpModalLabel">Get an Coder Account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+
+
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">ConfromPassword</label>
+    <input type="confrompassword" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Creat Account</button>
+</form>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.krishisahayak.com/wp-content/uploads/2018/02/krishi-sahayak-logo-small.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.panna.org/sites/default/files/styles/article_list_full_width/public/blog/india-organic-farming.jpg?itok=qDZ6a6KJ" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.timgrahamstock.com/img-get2/I0000BYl1QW8euhg/fit=1000x750/110312-IND-081-TimGraham.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+
+      <body>
+        -- <div class="container">
+      <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+         
+        </div>
+      </header>
+        
+      <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 font-italic">About us</h1>
+          <p class="lead my-3">कृषि सहायक  में खेती से सम्बंधित लेखों , न्यूज़ ,ब्लॉग का प्रकाशन पारंम्परिक पत्रिकाओं और जर्नलों के अंको के प्रकाशन से हटके प्रकशन किया जाता है । अर्थात जैसे ही लेख प्रविष्टियां प्राप्त होती है तुरन्त ही उन्हे प्रकाशित किया जाता है। कृषि सहायक के माध्यम से किसानों को खेती से संबधित जानकारी मुफ्त में उपल्ब्ध कराई जाती है। यहां उन्नत खेती के तौर  -तरीको, फसलो की उन्नत किस्मों की जानकारी, फसलों को उगाने का उचित समय, फसल उगाने के लिए बीज की मात्रा तथा फसलो मे होने वाली बिमारियों से बचाव, पशु पालन संभंधित जानकारी ,कृषि व्यापर , कृषि विडियो ,खेती-बाडी मे प्रयोग होने वाली माप तोल जैसी अनेको उपयोगी जानकारी उपलब्ध है।</p>
+               </div>
+      </div>
+    
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">PROBLEM STATEMENT</strong>
+              <h3 class="mb-0">Background on the Organization</h3>
+              <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+              <p class="card-text mb-auto">TEXMO is a leading electric pump
+                manufacturer in India and has been
+                selling a wide range of water pump models
+                under the TARO brand, catering to both
+                Agriculture and Domestic requirements of
+                customers for over 60 years.
+                TARO Pumps have a reputation of
+                being high quality and low
+                maintenance, with the company being
+                the only pump manufacturer providing a
+                02 year warranty on all model</p>
+              <!-- <a href="#" class="stretched-link">Continue reading</a> -->
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="data:image/jpeg;base64,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r3lHRtdzPXxNfFjmi0jWGS0zvh1ZLbPdJPeEEsFXvGP9aCILBcwwtsiIbSm3Iw126/aO6t3sWcokEqM6ajp5zVR5ruyVdc4YjMgeA4R++q5RogWckeVTOCscRvrbTCYI2baZlRlt5MouGXi5dMwTBJXwFW/lT2Z9lcXEY24t24rZlRCSmYahndgGcg6xAEjrVlsLNozHckY+00WVS9bPukuEdQejhoGnkT+FY15G4o4gjD256l2JH91DXYqV3/iuXWtvP/C8e96Vvk/llcDaKlu0uPBuPsNNlUfVEnzMn0FV9sCKz4NWbKD20+YHZV06ud+1XlLE8Q/JvycIez7XNnbL7/ZZY0M+4a8+W8vL0Y6x8ObcPNu29x7eotXLNwTImc6GCehZ1mtG7jbht3e0EuC5hgCVJYnunp8KsnDfZhxG2z5ltZXQqYueBDL9Hoyistv2a8RCXAVtEtIWbnQ7T3egrEx7ulz7KU/HLmZM3uqMseInvT18vurIuHRbgtrmKu9t83WGJgHxgN99WC57JuJsBpZkf7z/AOtSGG9mfEVQAi0GGxFzy0+j61bElfONxVs27cnvCTucxEmCfm566EVDOzvJzlQxyrG0gA/6HU+NWrEchY98jdnaDISf1kjWNNttKxp7O8eEuSLRdnUiXEBQCNO7oe8T8KmtReraDbFAICSJ1zTseh9dgfA/bXzhrKXEL2zmLKSwYT3VjOF1GWPejrHxqzjkDGXLRt3UtTlgMHkgj3TMSfCK0OD+zriVowws5TP050YQeg8AfhTRuba/BuNdmxtlg8KuboYMBTBAJ38dNBFbHMt65bt3Li6g24UqTmVoiSI1Akn4Vmb2b40ujxbHvK8uD3ZBBHd33HwFSGD5S4oshxZiTlhzoPDUf6itS6Zy7uXYe+912OeMwGdp1AXJJ8QZG/kfOu++zppwrEDe4x2jdEP41V7/ACHfdXzW7auwIzKw10IGbTUeu1XPkrhd3DYc27oAbOWENm0KqN/UGt29nOeVhpSlZae0pSgUpSgUpSgUpSg1nwVtjLW0J8SoP4VmVANgB6CvulApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlB//9k=" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">PROBLEM STATEMENT</strong>
+              <h3 class="mb-0">Issues and Challenges </h3>
+              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
+              <p class="mb-auto">Despite the reputation, TEXMO
+                was facing the following issues in
+                Odisha:
+                •Slow & restricted penetration ofTEXMO products
+                • Low awareness and Low Demand 
+                • Slow sales growth through existing marketing channels
+                • Low transparency and efforts by existing dealers
+                • Limited convergence with Government schemes
+                • No alternate channels of distribution explored</p>
+              <!-- <a href="#" class="stretched-link">Continue reading</a> -->
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="https://image.shutterstock.com/image-vector/farming-issues-concept-icons-set-260nw-2223249467.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8 blog-main">
+          <!-- <h3 class="pb-4 mb-4 font-italic border-bottom">
+            From the Firehose
+          </h3> -->
+    
+          <div class="blog-post">
+            <h2 class="blog-post-title">भारतीय कृषि अनुसंधान संस्थान</h2>
+            <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+    
+            <p>'पूसा संस्थान' के नाम से लोकप्रिय भारतीय कृषि अनुसंधान संस्थान की स्थापना मूल रूप से पूसा (बिहार) में एक अमेरिकी समाजसेवक मि. हेनरी फिप्स द्वारा दिये गए 30,000 पाउन्ड् के सहयोग से 1905 में हुई थी</p>
+            <hr>
+            <p> मूल रूप में यह संस्थान 'इम्पीरियल कृषि अनुसंधान संस्थान'  <a href="#">(Imperial Agriculture Research Institute) था</a>जो ब्रिटिश काल में में स्थापित किया गया था। सन् १९३४ में बिहार में एक भयंकर भूकंप आया जिसमें इस संस्थान के मुख्य भवनों को काफी क्षति हुई।</p>
+            <blockquote>
+              <p>इसके परिणामस्वरूप उसी वर्ष <strong>इस संस्थान को नयी दिल्ली स्थानान्तरित कर दिया गया </strong> जिसे 'पूसा कैम्प्स' कहा गया।</p>
+            </blockquote>
+            <p>आगे चलकर <em>दिल्ली स्थित </em>यह संस्थान का नाम 'भारतीय कृषि अनुसंधान संस्थान'  (Indian Agricultural Research Institute) कर दिया गया। और पूसा में जो कुछ बचा रहा उसे पदावनत (downgrade) करके 'कृषि अनुसंधान स्टेशन' (agricultural research station) कहा जाने लगा। अन्तत: ३ दिसम्बर सन् १९७० को भारत सरकार ने इसी को नामान्तरित करके 'राजेन्द्र कृषि विश्वविद्यालय' के रूप में बदल दिया। </p>
+            <h2>विशेषज्ञता</h2>
+            <p>♦पानी के प्रबंधन के लिए क्षेत्र आधारित प्रौद्योगिकी का विकास</p>
+            <p>♦पानी के वितरण और प्रबंधन के लिए वैज्ञानिक दिशा निर्देश</p>
+            <p>♦सिंचाई कमांड क्षेत्रों में आउटरीच कार्यक्रम अनुसंधान और प्रशिक्षण,</p>
+            <p>♦जल विज्ञान और प्रौद्योगिकी पर स्नातकोत्तर पाठ्यक्रम</p>
+            <h3>प्रवेशद्वार:हाल की घटनाएँ</h3>
+            <p>♦जापान के पूर्व प्रधानमंत्री शिंजो आबे (चित्रित) का निधन, भाषण के दौरान मारी गयी थी गोली।</p>
+            <p>♦काबुल के एक स्कूल के नजदीक बम विस्फोट होने से लगभग 85 लोगों की मृत्यु हो गई और 150 से अधिक लोग घायल हो गए।</p>
+            <p>♦इज़राइल के माउंट मेरन में भगदड़ शुरू होने के कारण कम से कम 45 लोग मारे गए और सौ से अधिक लोग घायल हो गए।</p>
+            <p>♦बगदाद के इब्न अल-खतीब अस्पताल में आग लगने से लगभग 82 लोग मारे गए और 110 लोग घायल हो गए।</p>
+            <p>♦सेंट विंसेंट एंड ग्रेनाडाइन्स के ला सॉफरियर ज्वालामुखी में विस्फोट होने से 20,000 लोगों को पलायन करना पड़ा।</p>
+            <p>♦श्रीविजय एयर उड़ान 182 सुकानो हात्ता हवाई अड्डा, इंडोनेशिया से उड़ान के कुछ समय बाद जावा सागर में दुर्घटना ग्रस्त हो गई।</p>
+            <pre><code>उद्देश्य</code></pre>
+            <p> <इस योजना का उद्देश्‍य उच्‍च कृषि शिक्षा संस्‍थानों से गुणवत्ता परक मानव संसाधन तैयार करना है।</p>
+            <p> <इसके लिये कई नई पहलें शुरू की गई हैं, जिनमें शामिल हैं-</p>
+            <p>♦ किताबी ज्ञान को कम करना।
+              ♦ फैकल्टी की कमी को दूर करना।
+              ♦ इस क्षेत्र में प्रतिभाशाली छात्रों को आकर्षित करने के उपाय करना।</p>
+            <h3>महत्त्वपूर्ण बिंदु</h3>
+            <p>  <इस योजना के अंतर्गत मान्‍यता प्रदान करने के साथ-साथ कृषि विश्‍वविद्यालयों की गुणवत्तापरक रैंकिंग सुनिश्चित करने के लिये इन्‍हें वित्तीय सहायता भी प्रदान की जाएगी।</p>
+            <p>  <इसके तहत कई ज़िम्मेदारियों का निर्वहन किया जाएगा यथा-</p>
+            <p>♦ पर्यावरण अनुकूल पहल।</p>
+              <p>♦ अंतर्राष्‍ट्रीय रैंकिंग।</p>
+              <p>♦ पूर्व छात्रों की भागीदारी।</p>
+              <p>♦ नवाचार को बढ़ावा देना।</p>
+              <p>♦ प्रेरित अध्‍यापक नेटवर्क।</p>
+              <p>♦ तकनीकी सक्षम शिक्षा।</p>
+              <p>♦ डॉक्‍टरल डिग्री के बाद की फेलोशिप।</p>
+              <p>♦ कृषि शिक्षा पोर्टल।</p>
+              <p>♦ वैज्ञानिक सामाजिक उत्‍तरदायित्‍व।</p>
+            <ul>
+             <li>आधुनिक बेहतरीन कार्यक्रम के ज़रिये छात्रों और फैकल्टी की ज़रूरतों से संबंधित बुनियादी ढाँचे तथा फैकल्टी और छात्रों की क्षमता बढ़ाने के लिये सुदृढ़ीकरण और आधुनिकीकरण में सहायता करना, जिससे शिक्षण में सुधार होगा और छात्रों के संपूर्ण विकास को बढ़ावा मिलेगा।</li>
+            </ul>
+           
+    
+          <div class="blog-post">
+            <h2 class="blog-post-title">योजना के लाभ</h2>
+            <p class="blog-post-meta">इससे प्रतिस्पर्द्धी और आत्‍मविश्‍वास से भरे मानव संसाधन का निर्माण होगा। <a href="#"></a></p>
+    
+            <p>इसके अतिरिक्‍त ICAR – CIWA द्वारा कृषि तथा इससे संबंधित क्षेत्रों से जुड़े लैंगिक मसलों के समाधान हेतु, कृषि क्षेत्र में लैंगिक समानता को बढ़ावा देने, नीतियाँ/कार्यक्रमों और कृषि क्षेत्र में लैंगिक जागरूकता जैसे मुद्दों पर अनुसंधान किया जाएगा। 
+              /p>
+            <blockquote>
+              <p>संपूर्ण राष्‍ट्रीय कृषि अनुसंधान और शिक्षा प्रणाली (NARES) के द्वारा मानव संसाधनों और हितधारकों की क्षमता बढ़ाए जाने की आवश्‍यकता को पूरा किया जाएगा, जिससे ICAR-NAARM द्वारा NARES में किसानों, युवा वैज्ञानिकों, छात्रों और कृषि  आधारित उद्योग सहित हितधारकों की सामर्थ्‍य और क्षमताओं में वृद्धि होगी।</p>
+            </blockquote>
+            
+    
+          <div class="blog-post">
+            <h2 class="blog-post-title">पृष्‍ठभूमि</h2>
+            <p class="blog-post-meta">भारतीय कृषि अनुसंधान परिषद (ICAR) देश भर में स्‍थापित 75 कृषि विश्‍वविद्यालयों (AU) के साथ साझेदारी के माध्यम से योजना तैयार करने, विकास, समन्‍वय और गुणवत्तापरक उच्‍च कृषि शिक्षा सुनिश्चित करने का कार्य करती है।</p>
+    
+            <p>♦कृषि शिक्षा के प्रति आकर्षण और इसके सामर्थ्‍य को बढ़ाने, प्रतिभावान युवाओं को इस क्षेत्र में बनाए रखने एवं शिक्षण और शिक्षा से संबंधित छात्रों तथा फैकल्टी की ज़रूरतों के अनुसार संपूर्ण बुनियादी ढाँचे में सुधार करने के लिये बहुआयामी दृष्टिकोण अपनाया गया है। </p>
+            <p>♦कृषि अनुसंधान, शिक्षा और प्रौद्योगिकी प्रबंधन के क्षेत्र में राष्‍ट्रीय कृषि अनुसंधान और शिक्षा प्रणाली (NARES) की संबंधित व्‍यक्तियों और संस्‍थानों की क्षमता बढ़ाने में राष्‍ट्रीय कृषि अनुसंधान प्रबंधन अकादमी (NAARM) ने महत्त्वपूर्ण भूमिका निभाई है।</p>
+            <p>♦महिला कृषकों को सशक्‍त करने में केंद्रीय कृषिरत महिला संस्‍थान ने प्रमुख भूमिका निभाई है, क्‍योंकि बदलते कृषि परिदृश्‍य में महिलाओं की भूमिका और ज़िम्‍मेदारियाँ अति आवश्‍यक हैं।
+            </p>
+           
+      </div>
+    
+    </main>
+    
+    </body>
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
